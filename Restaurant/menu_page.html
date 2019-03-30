@@ -14,13 +14,7 @@
 					type="text/css" />
 			<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 			<style>
-				table, tr, td{
-					border: 1px solid black; 
-					padding-left: 10px;
-					padding-right: 6px;
-					margin: 10px;
-					background-color:white;	
-				}
+				
 				nav{
 					background-color: white;
 					padding: 10px;
@@ -43,7 +37,27 @@
 				}
 				body{
 					background-color: grey;
-				}	
+				}
+				#menuTitle{
+					text-decoration:underline;
+					font-size: xx-large;
+					font-weight:bold;
+				}#menu{
+					border: 1px solid black; 
+					padding-left: 10px;
+					padding-right: 6px;
+					margin: 10px;
+					background-color:white;
+					text-align:center;
+				}
+				#menu2{
+					font-weight:bold;
+				}
+				span{
+					font-weight:bold;
+					font-size: x-large;
+				}
+				
 	
 			</style>
     </head> 
@@ -60,105 +74,98 @@
         </nav>	
 		<section>
 			<article id="menu" >
-				<div style="font-weight: bold; text-align: center; font-size: 180%; text-decoration: underline;">
+				<div id="menuTitle">
 				Menu</div>
-					<table >
-						<tr>
-							<td ><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Burger</div>
+					<div id="menu">
+						<div class = "row">
+							<div class= "col">
+								<span>Burger</span><br />
 							
-							For those new to the restuarant, this is a classic
-							style Cheeseburger with lettuce, tomatoe, pickles, onions, 
-							and our stapled secret ingredient that will dip your 
-							toe into the intense possibilities of what you could 
-							experience with the side Beet Chives. <div style="text-align: center;">
-							$12.24</div>
-							
-							</td>
-							<td><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Beet Salad</div>
-							Served with belgian endive, honey, feta cheese, lettuce, and 
-							our secret veggie blend, this is the penultimate step to our 
-							magnum opus, Beet Soup. <div style="text-align: center;">
-							$6.12</div>
-							
-							</td/>					
-						</tr>
-						<tr>
-							<td><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Beet Risotto</div>
-							Our signature entre with beet, arorio rice,
-							onion, and blended broth. This of cource pairs best with our
-							Beet Soup, but if this is your first time here, we suggest the
-							previous option, Burger. Your Off Beet Eat experience, like life,
-							is about the journy. Diving right into the fire will get you burned.
-							Comes with your choice of Beet Salad or Beet soup.
-							<div style="text-align: center;"> 
-							$12.24</div>
-							</td>
-							
-							<td><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Beet Soup</div>
-							Two parts beet, one part sugar beet with onions,
-							garlic, canola oil, potatoe, and our stapled secret spice,
-							this explosion of flavor will take you on a spiritual journy
-							that will force you	
-							to readdress your yearning for rythmic expression. 
-							<div style="text-align: center;">
-							$6.12</div>
-							</td>
-						</tr>
-						 <tr>
-							<td><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Beet Pizza</div>
-							A tasty alternative to the Beet Risotto, this 10 inch curve ball
-							is for the well versed in Off Beet Eatery. The unique crust 
-							come with toppings of any pizza you could find, but will the 
-							daring option, not for the faint of heart, Pineapple Beets. 
-							<div style="text-align: center;">
-							$12.24</div>
-							
-							</td>
-							<td><div style="font-size: 1.5em; font-weight: bold; text-align: center;">
-							Beet Cake</div>
-							Our top of the line dessert will show that you do indeed have
-							a second stomch. At 211 caleries for serving, you will not 
-							ever find something so addicting yet healthy. 
-							<div style="text-align: center;">
-							$5</div>
-							</td>
-						</tr>
-					</table>
-					<table>
-						<tr>
-							<td>
+								For those new to the restuarant, this is a classic
+								style Cheeseburger with lettuce, tomatoe, pickles, onions, 
+								and our stapled secret ingredient that will dip your 
+								toe into the intense possibilities of what you could 
+								experience with the side Beet Chives. <br />
+								$12.24
+							</div>
+							<div class = "col"><span>
+								Beet Salad</span><br />
+								Served with belgian endive, honey, feta cheese, lettuce, and 
+								our secret veggie blend, this is the penultimate step to our 
+								magnum opus, Beet Soup. <br />
+								$6.12
+							</div>
+						</div>					
+						<div class = "row">
+							<div class= "col"><span>
+								Beet Risotto</span><br />
+								Our signature entre with beet, arorio rice,
+								onion, and blended broth. This of cource pairs best with our
+								Beet Soup, but if this is your first time here, we suggest the
+								previous option, Burger. Your Off Beet Eat experience, like life,
+								is about the journy. Diving right into the fire will get you burned.
+								Comes with your choice of Beet Salad or Beet soup.
+								<br /> 
+								$12.24
+							</div>
+							<div class="col"><span>
+								Beet Soup</span><br />
+								Two parts beet, one part sugar beet with onions,
+								garlic, canola oil, potatoe, and our stapled secret spice,
+								this explosion of flavor will take you on a spiritual journy
+								that will force you	
+								to readdress your yearning for rythmic expression.<br /> 
+								$6.12
+							</div>
+						</div>
+						<div class="row">
+							<div class = "col"><span>
+								Beet Pizza</span><br />
+								A tasty alternative to the Beet Risotto, this 10 inch curve ball
+								is for the well versed in Off Beet Eatery. The unique crust 
+								come with toppings of any pizza you could find, but will the 
+								daring option, not for the faint of heart, Pineapple Beets.<br /> 
+								$12.24
+							</div>
+							<div class="col"><span>Beet Cake</span><br />
+								Our top of the line dessert will show that you do indeed have
+								a second stomch. At 211 caleries for serving, you will not 
+								ever find something so addicting yet healthy. 
+								<br />
+								$5
+							</div>
+						</div>
+					</div>
+					<div id="menu2">
+						<div class = "row">
+							<div class = "col">
 								<div style="font-size: 2.5em; font-weight: bold; text-align: center;">
 								Beverages:</div>
-							</td>
-							<td>
-								<div style="font-size: 1em; font-weight: bold; text-align: center;">
-								Beet Juice</div>
-								<div style="text-align: center;">
-								$6.12</div>
-							</td>
-							<td>
-								<div style="font-size: 1em; font-weight: bold; text-align: center;">
-								Beetroot Zinger</div>
-								<div style="text-align: center;">
-								$12.12</div>
-							</td>
-							<td>
-								<div style="font-size: 1em; font-weight: bold; text-align: center;">
-								Red Tornado Drink</div>
-								<div style="text-align: center;">
-								$6.12</div>
-							</td>
-							<td>
-								<div style="font-size: 1em; font-weight: bold; text-align: center;">
-								Red Beet Kvass</div>
-								<div style="text-align: center;">
-								$12.12</div>
-							</td>
+							</div class = "col">
+							<div class = "col">
+							
+								Beet Juice
+								<br />
+								$6.12
+							</div>
+							<div class = "col">
+								
+								Beetroot Zinger
+								<br />
+								$12.12
+							</div>
+							<div class = "col">
+							
+								Red Tornado Drink
+								<br />
+								$6.12
+							</div>
+							<div class = "col">
+								
+								Red Beet Kvass
+								<br />
+								$12.12
+							</div >
 						</tr>
 					</table>
 				
